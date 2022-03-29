@@ -13,8 +13,17 @@ ul{
 
 li{
     margin-right: 13px;
-    margin-top:7px;
-    color: rgb(99, 95, 95);
+    margin-top:11px;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+}
+
+.aUno{
+    color: rgba(0,0,0,0.87);
+}
+
+.aUno:hover{
+    border-bottom: 1px solid black;
 }
 
 
@@ -25,15 +34,18 @@ li{
     margin-left:15px ;
     margin-right: 23px;
     margin-top: 7px;
-    color: grey;
+    color: #5f6368;
 }
 
 .iconos{
     width: 20px;
     height: 20px;
+}
 
-    
-   
+.lupa{
+    width: 20px;
+    height: 20px;
+    color: #9aa0a6;
 }
 
 input{
@@ -55,6 +67,7 @@ input{
     flex-direction: row;
     justify-content: center;
     width: 500px;
+    margin-top: 20px;
     padding: 10px;
     border: 2px solid rgba(192, 176, 176, 0.178);
     border-radius: 20px;
@@ -74,8 +87,74 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
+
+.btnSecundario{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    
+}
+
+.btnGrey{
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 6px;
+    
+}
+
+.argentina{
+    font-size: 15px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    color: #70757a;
+    background-color: #f8f9fa;
+}
+
+.padre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    height: 50px;
+    
+    
+}
+
+.padre a {
+    color: #70757a;
+    margin-left: 13px;
+
+}
+
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.aDos:hover{
+    border-bottom: 1px solid #70757a;
+}
+
+.end{
+    padding: 20px;
+}
+
+footer{
+    margin-top: 300px;
+}
+
+
+
 
 
 
