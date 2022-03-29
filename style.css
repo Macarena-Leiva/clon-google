@@ -1,0 +1,61 @@
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.puntitos{
+    width: 40px;
+    height: 40px;
+}
+
+.iconos{
+    width: 20px;
+    height: 20px;
+
+    
+   
+}
+
+input{
+    background-color: var(--search-box-bg, white);
+    border: none;
+    border-radius: calc(0.5 * var(--ntp-realbox-height));
+    color: var(--search-box-text);
+    font-family: inherit;
+    font-size: inherit;
+    height: 100%;
+    outline: none;
+    padding-inline-end: 44px;
+    padding-inline-start: 52px;
+    position: relative;
+    width: 100%;
+
+}
+
+.campoSearch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 500px;
+    padding: 10px;
+    border: 2px solid rgba(192, 176, 176, 0.178);
+    border-radius: 20px;
+}
+
+
+
+
+#voiceSearchButton{
+    background: url(chrome://new-tab-page/icons/googlemic_clr_24px.svg) no-repeat center;
+    background-size: 21px 21px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+    outline: none;
+    padding: 0;
+    pointer-events: auto;
+    position: absolute;
+    right: 16px;
+    width: 26px;
+}
