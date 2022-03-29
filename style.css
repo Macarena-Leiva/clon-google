@@ -33,13 +33,22 @@ li{
     height: 25px;
     margin-left:15px ;
     margin-right: 23px;
-    margin-top: 7px;
-    color: #5f6368;
+    color: #696969;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.puntitos:hover{
+    border: none;
+    border-radius: 20px ;
+    background-color: #eef3f7f8;
+
 }
 
 .iconos{
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 
 .lupa{
@@ -73,6 +82,10 @@ input{
     border-radius: 20px;
 }
 
+.campoSearch:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
 .btnAzul{
     width: 95px;
     height: 35px;
@@ -80,8 +93,14 @@ input{
     border-radius: 4px;
     background-color: #007bff;
     color: white;
-    
+    cursor: pointer;
 }
+
+.btnAzul:hover{
+    opacity: 0.5;
+}
+
+
 
 main{
     display: flex;
@@ -106,7 +125,13 @@ main{
     color: #3c4043;
     font-size: 14px;
     margin: 6px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    cursor: pointer;
     
+}
+
+.btnGrey:hover{
+    border: 1px solid #dadce0;
 }
 
 .argentina{
