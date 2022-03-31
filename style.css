@@ -6,7 +6,6 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    
     list-style: none;
     text-decoration: none;
 }
@@ -26,8 +25,6 @@ li{
     border-bottom: 1px solid black;
 }
 
-
-
 .puntitos{
     width: 25px;
     height: 25px;
@@ -42,7 +39,6 @@ li{
     border: none;
     border-radius: 20px ;
     background-color: #eef3f7f8;
-
 }
 
 .iconos{
@@ -57,8 +53,7 @@ li{
     color: #9aa0a6;
 }
 
-input{
-   
+input{ 
     border: none;
     font-family: inherit;
     font-size: inherit;
@@ -68,7 +63,6 @@ input{
     padding-inline-start: 52px;
     position: relative;
     width: 100%;
-
 }
 
 .campoSearch{
@@ -100,8 +94,6 @@ input{
     opacity: 0.5;
 }
 
-
-
 main{
     display: flex;
     flex-direction: column;
@@ -112,8 +104,7 @@ main{
 .btnSecundario{
     display: flex;
     flex-direction: row;
-    margin-top: 25px;
-    
+    margin-top: 25px;  
 }
 
 .btnGrey{
@@ -126,8 +117,7 @@ main{
     font-size: 14px;
     margin: 6px;
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-    cursor: pointer;
-    
+    cursor: pointer;  
 }
 
 .btnGrey:hover{
@@ -149,15 +139,12 @@ main{
     justify-content: space-between;
     background-color: #f8f9fa;
     font-size: 14px;
-    height: 50px;
-    
-    
+    height: 50px;  
 }
 
 .padre a {
     color: #70757a;
     margin-left: 13px;
-
 }
 
 
@@ -179,6 +166,7 @@ footer{
 }
 
 @media (min-width: 320px) and (max-width:600px){
+    
     .campoSearch{
         display: flex;
         flex-direction: row;
